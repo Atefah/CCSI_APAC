@@ -105,11 +105,11 @@ body  p h5{
 	display: block;
 	
 }
-.mvv-container .mvv-block .content p{
+.mvv-container .mvv-block .content{
 	width: 100%
 
 }
-.mvv-container .mvv-block .image img{
+.mvv-container .mvv-block .image{
 	width: 100%;
 	display: block;
 	z-index: 1;
