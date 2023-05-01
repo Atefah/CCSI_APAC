@@ -11,6 +11,9 @@ function reswize(){
     $(this).text(moreLessButton);
     $(this).parent('.box').find('.invisible-content').toggle();
     $(this).parent('.box').find('.visible-content').toggle();
+    $(this).parent('.paraLeadership').find('.invisible-content').toggle();
+    $(this).parent('.paraLeadership').find('.visible-content').toggle();
+
   })
       
 })
@@ -31,21 +34,3 @@ function myFunction() {
     moreText.style.display = "inline";
   }
 }
-(function($){
-        function myFunction(x) {
-            $(window).scroll(function () {
-                if ($(document).scrollTop() == 0) {
-                    $('#header_logo').removeClass('tiny');
-                    $('#header_top_space').removeClass('tinySpace');
-                } else {
-                    $('#header_logo').addClass('tiny');
-                    $('#header_top_space').addClass('tinySpace');
-                }
-            });
-        }
-
-        var x = window.matchMedia("(max-width: 576px)")
-        myFunction(x) // Call listener function at run time
-        x.addListener(myFunction) // Attach listener function on state changes 
-
-    })(jQuery);
