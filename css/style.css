@@ -105,10 +105,10 @@ body{
   }
 
 .jumbotron{
-	background-image: url('../img/Hopetoun Falls, Aire River, Otway National Park, Victoria, Australia.jpg');
+	height: 400px; 
+	/* background-image: url('../img/Hopetoun Falls, Aire River, Otway National Park, Victoria, Australia.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 400px;
 	/* opacity:1.0 ; */
 }
 .jumbotron:hover {
@@ -117,15 +117,15 @@ body{
 
 .jumbotron h1 {
 	padding-top:60px;
-	color: white;
-	font-weight: bold;
+	color: black;
+	/* font-weight: bold; */
 }
 
 .jumbotron p{
-	color: white;
+	color: black;
 	cursor: pointer;
 	padding-top:60px;
-	font-weight: bold;
+	/* font-weight: bold; */
 }
 
 
