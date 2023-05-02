@@ -1,7 +1,7 @@
-function reswize(){
-         document.getElementById("logo").style.width="150px";
-          document.getElementById("logo").style.transition="all 0.5s ease-in-out 0";     
-}
+// function reswize(){
+//          document.getElementById("logo").style.width="150px";
+//           document.getElementById("logo").style.transition="all 0.5s ease-in-out 0";     
+// }
 
 
  $(document).ready(function () {
