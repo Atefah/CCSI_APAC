@@ -4,14 +4,15 @@ body{
 	padding:0;
 	overflow-x: scroll;
 	box-sizing:border-box;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
 }
 body p{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 18px;
+    font-size: 1rem;
+    font-weight: 550;
 	word-spacing: normal;
-	line-height: 28px;
+	line-height: 1.5;
 	text-align: justify;
-	font-weight: 550;
+	
 }
 
 .hr{
@@ -46,6 +47,7 @@ h2{
 	clear: both;
 }
 
+
 /* #more {display: none;} */
 
 #logo {transition:0.4s ;}
@@ -58,6 +60,7 @@ h2{
 .linear-gradient {
 	background: linear-gradient(55deg, rgb(27, 30, 33) 50%,#58BB9F 50%); 
 }
+
 
 /*our mission section*/
 .mvv-container{
@@ -109,9 +112,11 @@ h2{
 	.logo {
 		width: 100px ;
 	}
-	#nav{
-	float: right;
-}
+	/* ul li a{
+	display: block;
+	width:100%;
+	margin: auto;
+} */
 }
 
 #navbar{
@@ -139,14 +144,18 @@ h2{
 
 .jumbotron{
 	height: 400px; 
+		/* background-color: #CCCCFF; */
+		/* background-color:#d9eaed; */
+		/* background-color:  #e9f2f4; */
+	}
 	/* background-image: url('../img/Hopetoun Falls, Aire River, Otway National Park, Victoria, Australia.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	/* opacity:1.0 ; */
-}
-.jumbotron:hover {
+
+/* .jumbotron:hover { */
 	/* opacity: 0.5; */
-  }
+  /* } */
 
 .jumbotron h1 {
 	padding-top:60px;
@@ -259,7 +268,7 @@ h3{
 	overflow: hidden;
 	}
 #btn{
-  background-color: teal;
+  background-color: rgb(6, 146, 146);
   color: #fff;
   padding: 10px 15px;
   margin: 15px;
