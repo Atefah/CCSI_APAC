@@ -244,17 +244,20 @@ h3{
 	margin-right: auto;
 	}
 .box{
-	width: 28%;
+	
 	float: left;
 	background-color: #fff;
 	border-radius: 5px;
 	box-shadow: 0 7px 7px gray;
-	margin: 40px 30px;
+	margin: 20px 0px;
 	}
 .box img{
-	width: 100%;
+	width: 90%;
 	height: 300px;
-	border-radius: 5px 5px 0 0;
+	border-radius:5px;
+	margin-left: 20px;
+	margin-top: 10px;
+
 	}
 .box h3{
 	margin-left: 15px;
@@ -280,16 +283,26 @@ h3{
   box-shadow: 0 5px 5px rgba(0,0,0,0.2)
 }
 @media screen and (max-width: 650px){
-  .box {
-		  width: 80%;
+	.box {
+		  width: 100%;
 		  display: block;
-		  margin-left: 10%;
+	}
+	.box img{
+		width: 90%;
+		height: 250px;
+		margin: 10px;
+
+  }
+
+  #imageLeadership img{
+	width: 100%;
+	height: 250px;
 }
+  }
 
+		
 
-
-
-}
+  
 
 /*//form style*/
 
