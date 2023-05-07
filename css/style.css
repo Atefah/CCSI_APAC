@@ -61,7 +61,6 @@ h2{
 	background: linear-gradient(55deg, rgb(27, 30, 33) 50%,#58BB9F 50%); 
 }
 
-
 /*our mission section*/
 .mvv-container{
 	max-width: 90%;
@@ -93,17 +92,16 @@ h2{
 } */
 
 .mvv-container .mvv-block .content{
-	/* flex: 0 0 auto;
-	width: calc(100% - 400px);
 	box-shadow: border-box;
-	align-self: center; */
+	 border-radius: 10px solid#e9f2f4;
+	 padding:30px;
+	  
 }	
 .mvv-container .mvv-block .content h5{
-	
 	border-bottom: 10px;
 }
 /* .mvv-container .mvv-block .content p{
-	font-size: 15px;
+	
 
 } */
 
