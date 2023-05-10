@@ -45,3 +45,6 @@ function scrollFunction() {
     document.getElementById("logo").style.width = "200px";
   }
 }
+function validation() {
+  alert("working");
+}
