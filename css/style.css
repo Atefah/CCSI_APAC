@@ -121,7 +121,7 @@ h2{
 	}
 	
 .mvv-container .mvv-block .content{
-	overflow: hidden;
+	overflow-y: scroll;
 	padding: 16px;
 	
 }
