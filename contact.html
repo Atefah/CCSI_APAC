@@ -71,41 +71,36 @@
             
                         </div>
                         <div class="col-xl-6 col-sm-12">
-                          <form class="card-body p-md-5 text-black" action="index.html">
+                          <form class="card-body p-md-5 text-black" action="index.html" id="registrationForm">
                             <div class="row" >
                               <div class="col-md-12 mb-4" >
                                 <div class="form-outline">
-                                    <label class="form-label" for="form3Example1m">FirstName</label>
-                                  <input type="text" id="form3Example1m" class="form-control form-control-lg" 
-                                  placeholder="Enter your Name" name="name" 
-                                  required on invalid="this.setCustomValidity('please Enter Your Name')"
-                                  on input="this.setCustomValidity(' ')"/>
+                                    <label class="form-label" for="FirstName">FirstName*</label>
+                                  <input type="text" id="FirstName" class="form-control form-control-lg" 
+                                  placeholder="Name" name="name" 
+                                  />
                                 </div>
                               </div>
                               <div class="col-md-12 mb-4">
                                 <div class="form-outline">
-                                  <label class="form-label" for="form3Example1n">LastName
-                                  </label>
-                                  <input type="text" id="form3Example1n" class="form-control form-control-lg" 
-                                  placeholder="Enter your Last Name" name="name" 
-                                  required on invalid="this.setCustomValidity('please Enter Your Name')"
-                                  on input="this.setCustomValidity('')"/>
+                                  <label class="form-label" for="LastName">LastName*</label>
+                                  <input type="text" id="LastName" class="form-control form-control-lg" 
+                                  placeholder="Last Name" name="name" 
+                                  />
                                 </div>
                               </div>
                             </div>
                             <div class="form-outline mb-4">
-                              <label class="form-label" for="form3Example97">Email</label>
-                              <input type="email" id="form3Example97" class="form-control form-control-lg"
-                              placeholder="Enter your email" name="email*" 
-                              required on invalid="this.setCustomValidity('please Enter Your email')"
-                              on input="this.setCustomValidity('please Enter Your Email')" />
+                              <label class="form-label" for="email">Email*</label>
+                              <input type="email" id="email" class="form-control form-control-lg"
+                              placeholder="email" name="email" 
+                               />
                             </div>
                             <div class="form-outline mb-4">
-                              <label class="form-label" for="form3Example97">Message</label>
-                              <textarea type="text" id="form3Example97" class="form-control form-control-lg"
-                              placeholder="please Leave your Message" name="Message" 
-                              required on invalid="this.setCustomValidity('please enter your Message')"
-                              on input="this.setCustomValidity('')"/></textarea>
+                              <label class="form-label" for="Message">Message*</label>
+                              <textarea type="text" id="Message" class="form-control form-control-lg"
+                              placeholder="Message" name="Message" 
+                               ></textarea>
                             </div>
                             <div class="d-flex justify-content-end pt-3">
                               <button type="submit" class="btn btn-light btn-lg">Reset all</button>
