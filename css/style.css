@@ -113,6 +113,10 @@ h2{
 .jumbotron p{
 	cursor: pointer;
 	padding-top:60px;
+	padding: 30px 150px;
+}
+.positions{
+	padding: 30px;
 }
 
 @media screen and (max-width: 650px){
@@ -185,7 +189,7 @@ h3{
 	padding: 0 15px 15px 15px;
 	}
 .box p{
-	height: 40%;
+	/* height: 40%; */
 	padding: 0 15px 15px 15px;
 	}
 #btn{
