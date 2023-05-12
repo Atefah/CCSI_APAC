@@ -66,45 +66,55 @@
                 <div class="col">
                   <div class="card card-registration my-4">
                     <div class="row g-0" id="maindiv">
-                       <div class="col-xl-6  col-sm-12 d-xl-block" id="office"> 
-                          <p style="padding-top:100px; padding-left:30px; font-size: 20px;">Office: Chiyoda-ku,Tokyo, Japan</p>
-            
+                       <div class="col-xl-6 col-md-6  col-sm-12 d-xl-block" id="office"> 
+                          <p style="padding-top:100px; padding-left:30px; font-size: 20px;">Office:Chiyoda-ku,Tokyo, Japan</p>
                         </div>
                         <div class="col-xl-6 col-sm-12">
-                          <form class="card-body p-md-5 text-black" action="index.html" id="registrationForm">
+                          <form name="contactform" class="card-body p-md-5 text-black needs-validation" novalidate action="#"
+                           id="forms">
                             <div class="row" >
                               <div class="col-md-12 mb-4" >
                                 <div class="form-outline">
                                     <label class="form-label" for="FirstName">FirstName*</label>
-                                  <input type="text" id="FirstName" class="form-control form-control-lg" 
-                                  placeholder="" name="name" 
-                                  />
-                                </div>
+                                     <input type="text" id="FirstName" class="form-control form-control-lg" 
+                                       name="fname" autocomplete="off" required=""  />    
+                                       <div class="invalid-feedback">
+                                          Please Enter First Name
+                                      </div>
+                                   </div>
                               </div>
                               <div class="col-md-12 mb-4">
                                 <div class="form-outline">
                                   <label class="form-label" for="LastName">LastName*</label>
                                   <input type="text" id="LastName" class="form-control form-control-lg" 
-                                  placeholder="" name="name" 
-                                  />
+                                     name="lname" autocomplete="off" required=""  />    
+                                  <div class="invalid-feedback">
+                                    Please Enter Last Name 
+                                  </div> 
+                                 
                                 </div>
                               </div>
                             </div>
                             <div class="form-outline mb-4">
                               <label class="form-label" for="email">Email*</label>
                               <input type="email" id="email" class="form-control form-control-lg"
-                              placeholder="" name="email" 
-                               />
+                              name="email" autocomplete="off" required=""  />    
+                              <div class="invalid-feedback">
+                                 Please Enter A Valid Email Address (xx@gmail.com)
+                              </div> 
                             </div>
                             <div class="form-outline mb-4">
-                              <label class="form-label" for="Message">Message*</label>
-                              <textarea type="text" id="Message" class="form-control form-control-lg"
-                              placeholder="" name="Message" 
-                               ></textarea>
+                              <label class="form-label" for="message">Message*</label>
+                              <textarea type="text" id="message" class="form-control form-control-lg"
+                               name="message"  > 
+                               </textarea>
+                               <div class="invalid-feedback">
+                                Please leave a  message.
+                              </div> 
                             </div>
-                            <div class="d-flex justify-content-end pt-3">
-                              <button type="submit" class="btn btn-light btn-lg">Reset all</button>
-                              <button type="submit" class="btn btn-lg ms-2" style="background-color: #58BB9F">Submit form</button>
+                            <div class="d-flex justify-content-end pt-3"> 
+                              <!-- <button type="submit" class="btn btn-light btn-lg">Reset all</button>  -->
+                              <button type="submit" class="btn btn-lg ms-2" style="background-color: #58BB9F" name="submit">Submit</button>
                             </div>
                           </div>
                         <!-- </div> -->
@@ -126,17 +136,8 @@
                       <img class="footer-logo" src="img/logo done.png" alt="">
                   </div>
               </div>
-              <!-- <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 f-col">
-                  <h4>Where are we based?</h4>
-                  <p>Chiyoda-ku Tokyo Japan</p>
-                  <p>Po Box 10392-80101 Mombasa Kenya</p>
-                  <h4>Contact Us</h4>
-                  <p><i class="fa fa-phone"></i>+254722586269</p>
-                  <p> <i class="fa fa-phone"></i> tb@ccsiafrica.com</p>
-              </div> -->
               <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 f-col">
                <div class="hidd" style="height: 30px; "></div>
-                  <!-- <h4>Helpfull Links</h4> -->
                   <ul>
                       <li><a href="#">Services</a></li>
                       <li><a href="#">Supports</a></li>
@@ -150,3 +151,22 @@
 </body>
 </html>
 <script type="text/javascript" src="js/script.js"></script>
+<script>
+  (function() {
+  "use strict ";
+  window.addEventListener('load',function() {
+    var forms = document.getElementsByClassName('needs-validation');
+    var validation = Array.prototype.filter.call(forms,function(form){
+    form.addEventListener('submit',function(event) {
+      if (form.checkValidity() === false) {
+        event.preventDefault();
+        event.stopPropagation()
+      }
+      form.classList.add('was-validated'); 
+    },false);
+
+    });
+
+  },false);
+})();
+</script>

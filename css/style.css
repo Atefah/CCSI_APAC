@@ -134,25 +134,16 @@ h2{
 }
 h3{
 	padding: 10px 0px;
-	/* font-size: 30px;
-	color:#025196; */
+	
 	font-weight: bold;
 	/* text-align: center; */
 }
 
 
-/* p{
-	/* font-size: 16px; */
-	/* line-height: 28px; */
-	/* text-align: justify; */
-/* } */
- 
 /* leadership*/
 #imageLeadership img{
 	width: 100%;
 	border-radius: 5px;
-	/* height: 300px; */
-	/* box-shadow: 0px 10px 0px 10px gray; */
 }
 .Leadership{
 	padding: 40px;
@@ -236,19 +227,13 @@ h3{
 
 }
 
-		
-
-  
-
+	
 /*//form style*/
 
 .form-section{
 	width: 100%;
 }
 
-
-
-/*//end form style*/
 @media screen and (max-width: 800px) {
 	#office {
 		padding: 0px;
@@ -275,9 +260,7 @@ footer{
     box-sizing: border-box;
     color:gray;
 }
-/* .f-col h4{ 
-    color:#58BB9F;
-} */
+
 .f-col ul{
     list-style: none;   
 }

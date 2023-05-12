@@ -45,6 +45,9 @@ function scrollFunction() {
     document.getElementById("logo").style.width = "200px";
   }
 }
+// required on 
+//                                   invalid="this.setCustomValidity('please enter your name')" on 
+//                                   input="this.setCustomValidity('')"
 
 
 
