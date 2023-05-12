@@ -49,8 +49,6 @@ h2{
 }
 
 
-/* #more {display: none;} */
-
 #logo {transition:0.4s ;}
 
 
@@ -134,9 +132,7 @@ h2{
 }
 h3{
 	padding: 10px 0px;
-	
 	font-weight: bold;
-	/* text-align: center; */
 }
 
 
@@ -232,6 +228,11 @@ h3{
 
 .form-section{
 	width: 100%;
+}
+#office p{
+	padding:50px;
+	overflow: auto;
+	font-size: 20px;
 }
 
 @media screen and (max-width: 800px) {
