@@ -143,8 +143,10 @@ h3{
 }
 .Leadership{
 	padding: 40px;
-	
 
+}
+.paraLeadership p{
+	overflow: hidden;
 }
 .expertise{
 	box-shadow: 10px gray;
